@@ -9,4 +9,4 @@ const Jerky = () =>{
         </div>
     )
 }
-export default Chips
+export default Jerky

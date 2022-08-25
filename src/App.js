@@ -2,6 +2,8 @@ import "./App.css";
 import { BrowserRouter, Route } from "react-router-dom";
 import VendingMachine from "./VendingMachine";
 import Chips from "./Chips";
+import Soda from "./Soda";
+import Jerky from "./Jerky";
 
 function App() {
   return (
@@ -14,10 +16,10 @@ function App() {
           <Chips />
         </Route>
         <Route path="/soda" exact>
-          <Chips />
+          <Soda />
         </Route>
         <Route path="/jerky" exact>
-          <Chips />
+          <Jerky />
         </Route>
       </BrowserRouter>
     </div>
